@@ -23,6 +23,7 @@ const RecipeCard = ({ recipe }) => {
             <h3>Dish Name: {strMeal}</h3>
             <div className='strArea'>This Recipe is from {strArea}.</div>
             <div className="category">Dish Type: {strCategory}</div>  
+            <a href={"https://www.themealdb.com/meal/" + idMeal}>Instructions to Prepare the Recipe</a>
         </div>
     </div>
   )
