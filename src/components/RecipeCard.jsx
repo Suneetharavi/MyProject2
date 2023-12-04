@@ -1,8 +1,24 @@
 import React from 'react'
 
-function RecipeCard (props){
+const RecipeCard = ({ recipe }) => {
+    const {
+        idMeal,
+        strMeal,
+        strCategory,
+        strMealThumb,
+    } = recipe;
+
   return (
-    <div>RecipeCard</div>
+    <div>Food recipes
+
+        <img
+            src={strMealThumb}
+            alt={strMeal}
+            className="card-image"
+        />
+
+
+    </div>
   )
 };
 
