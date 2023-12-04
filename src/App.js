@@ -35,7 +35,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="container">
         <h1>Food Recipes</h1>
 
         {/* To Dispaly the fetched data */}

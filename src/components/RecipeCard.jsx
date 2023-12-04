@@ -12,7 +12,7 @@ const RecipeCard = ({ recipe }) => {
     } = recipe;
 
   return (
-    <div className='foodRecipes'>
+    <div className='card'>
 
         <img
             src={strMealThumb}
@@ -20,10 +20,14 @@ const RecipeCard = ({ recipe }) => {
             className="card-image"
         />
         <div className='card-body'>
-            <h3>Dish Name: {strMeal}</h3>
-            <div className='strArea'>This Recipe is from {strArea}.</div>
-            <div className="category">Dish Type: {strCategory}</div>  
-            <a href={"https://www.themealdb.com/meal/" + idMeal}>Instructions to Prepare the Recipe</a>
+            <h3>{strMeal}</h3>
+            <span className="category">{strCategory}</span>
+            <h4>It's the {strArea} Dish</h4>
+            {/* <h5>This is served as a {strCategory}</h5> */}
+
+            {/* <div className='strArea'>This Recipe is from {strArea}.</div>
+            <div className="category">Dish Type: {strCategory}</div>   */}
+            <a href={"https://www.themealdb.com/meal/" + idMeal}>Ingrediants</a>
         </div>
     </div>
   )
