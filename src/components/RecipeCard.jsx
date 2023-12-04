@@ -6,18 +6,22 @@ const RecipeCard = ({ recipe }) => {
         strMeal,
         strCategory,
         strMealThumb,
+        strArea,
     } = recipe;
 
   return (
-    <div>Food recipes
+    <div className='foodRecipes'>
 
         <img
             src={strMealThumb}
             alt={strMeal}
             className="card-image"
         />
-
-
+        <div className='card-body'>
+            <h3>Dish Name: {strMeal}</h3>
+            <div className='strArea'>This Recipe is from {strArea}.</div>
+            <div className="category">Dish Type: {strCategory}</div>  
+        </div>
     </div>
   )
 };
