@@ -7,6 +7,8 @@ const RecipeCard = ({ recipe }) => {
         strCategory,
         strMealThumb,
         strArea,
+        strSource,
+        strYoutube,
     } = recipe;
 
   return (
