@@ -37,6 +37,19 @@ function App() {
   return (
     <div className="App">
         <h1>Food Recipes</h1>
+
+        {/* To Dispaly the fetched data */}
+
+        <div className='recipes'>
+
+            {recipes ? recipes.map(recipe => (
+              <RecipeCard
+                key={recipe.idMeal}
+                recipe={recipe}
+              />
+            )) : "Sorry! No Recipes Found!"}
+
+        </div>
     </div>
   );
 }
