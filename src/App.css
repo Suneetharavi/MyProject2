@@ -31,7 +31,7 @@
   border-radius: 6px;
   margin-left: 20px;
   width: 50%;
-  background-color: white;
+  background-color: rgb(6, 6, 6);
 }
 
 .Placeholder{
@@ -103,7 +103,7 @@ a {
 }
 
 h6 a{
-  background-color: rgb(250, 151, 13);
+  background-color:white;
   color: rgb(236, 15, 15);
   padding: 10px;
   border-radius: 10px;
@@ -114,7 +114,7 @@ h6 a{
 
   background-color: rgba(247, 245, 242, 0.968);
   color: rgb(236, 17, 17);
-  padding: 7px;
+  padding: 1px;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -124,6 +124,7 @@ h6 a{
   color: blue;
   font-weight: 100;
   font-size: medium;
+  background-color: #f7f7f7;
 }
 .card-body {
   padding: 1px;
@@ -136,3 +137,42 @@ h6 a{
 }
 
 
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  font-size: 16px;
+
+}
+input:focus {
+  outline: none;
+}
+
+.form-control {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 400px;
+}
+
+.btn {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+
+}
+
+.buttonClass{
+ 
+  width:180px;
+  height: 40px;
+  border-width: 2px;
+  border-radius: 20px;
+  color: blueviolet;
+  background-color: black;
+  font-weight: bold;
+}

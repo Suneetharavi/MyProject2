@@ -10,11 +10,12 @@ const SearchBar = ({
         <form onSubmit={handleSubmit}>
             <input 
                 value={query}
-                className="form-control"
+                className="SearchInputText"
                 placeholder="Search Recipe"
                 name="query"
                 disabled={isLoading}
                 onChange={(event) => setQuery(event.target.value)}
+                
             />   
             <input
                 disabled={isLoading || !query}
