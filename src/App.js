@@ -1,7 +1,23 @@
 import './App.css';
+import styled from 'styled-components';
 import SearchBar from './components/SearchBar';
 import RecipeCard from './components/RecipeCard';
 import { useEffect, useState } from 'react';
+// import logo from './models/logo'
+
+//Used Styled Components to style the Header
+const Header = styled.div`
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 #555;
+`;
 
 function App() {
 
@@ -36,7 +52,27 @@ function App() {
 
   return (
     <div className="container">
-        <h1>Food Recipes</h1>
+
+    <Header>
+        <div className='AppName'> 
+            <img src="Food Recipe Finder.png " className='AppIcon' alt='logo'/>
+            Food Recipe Finder
+        </div>
+        <div className='SearchBox'>
+            
+          
+            <div className='SearchInput'>
+               <input  className='SearchInputText' placeholder="Search Recipe"
+                  // value={searchQuery}
+                  // onChange={onTextChange}
+                />
+            </div>
+            <div className='SearchIcon'> 
+             <img src="SearchIcon.png" alt='searchimage' width='32' height='30'></img>
+            </div>
+          </div>
+            
+    </Header>
 
         {/* To Dispaly the fetched data */}
 

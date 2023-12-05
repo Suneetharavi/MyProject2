@@ -11,6 +11,69 @@
   border-radius: 20px;
 }
 
+.AppName{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.AppIcon{
+  width: 56px;
+  height: 66px;
+  margin: 15px;
+}
+
+.SearchBox{
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-left: 20px;
+  width: 50%;
+  background-color: white;
+}
+
+.Placeholder{
+
+  width: 120px;
+  height: 120px;
+  margin: 200px;
+  opacity: 50%;
+}
+
+.SearchInput{
+
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+
+}
+
+.SearchInputText{
+
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+
+}
+
+.SearchIcon{
+
+  width: 22px;
+  height: 22px;
+  margin-left: 120px;
+  
+}
+
+
+
 .recipes {
   display: flex;
   flex-direction: row;
