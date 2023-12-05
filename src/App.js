@@ -22,7 +22,7 @@ const Header = styled.div`
 function App() {
 
   //To check whether the URL is fetching the data or not..
-  const [loading,setIsloading]=useState(false);
+  const [isLoading,setIsloading]=useState(false);
 
   //To fetch the data according to the given serch term
   const [query,setQuery] = useState('');
@@ -49,6 +49,11 @@ function App() {
       searchRecipes();
   },[]);
 
+  const handleSubmit = event => {
+    event.preventDefault();
+    searchRecipes();
+  }
+
 
   return (
     <div className="container">
@@ -62,14 +67,20 @@ function App() {
             
           
             <div className='SearchInput'>
-               <input  className='SearchInputText' placeholder="Search Recipe"
-                  // value={searchQuery}
+               {/* <input  className='SearchInputText' placeholder="Search Recipe"
+                   value={query}
                   // onChange={onTextChange}
+                /> */}
+                <SearchBar 
+                       isLoading={isLoading}
+                       query={query}
+                       setQuery={setQuery}
+                       handleSubmit={handleSubmit}
                 />
             </div>
-            <div className='SearchIcon'> 
+            {/* <div className='SearchIcon'> 
              <img src="SearchIcon.png" alt='searchimage' width='32' height='30'></img>
-            </div>
+            </div> */}
           </div>
             
     </Header>
