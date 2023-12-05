@@ -96,12 +96,35 @@
 
 a {
   background-color: rgb(250, 151, 13);
-  color: black;
+  color: rgb(10, 10, 10);
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
 }
 
+h6 a{
+  background-color: rgb(250, 151, 13);
+  color: rgb(236, 15, 15);
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.YoutubeLinkClass{
+
+  background-color: rgba(247, 245, 242, 0.968);
+  color: rgb(236, 17, 17);
+  padding: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.YoutubeLinkClass a{
+
+  color: blue;
+  font-weight: 100;
+  font-size: medium;
+}
 .card-body {
   padding: 1px;
   text-align: center;
@@ -109,7 +132,7 @@ a {
 }
 
 .category {
-  color:rgb(130, 126, 126);
+  color:rgb(28, 9, 236);
 }
 
 
