@@ -109,6 +109,13 @@ const drawer =(
                 {drawer}
             </Drawer>
         </Box>
+    
+    {/* To Fix the hiding content in the pages */}
+    {/* Styling with padding 1 to the page */}
+        <Box sx={{ p:1 }}>
+          <Toolbar />
+        </Box>
+
     </Box>
     </>
   )

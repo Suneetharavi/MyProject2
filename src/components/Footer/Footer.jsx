@@ -6,6 +6,7 @@ import '../Footer/footer.css'
 
 function Footer() {
   return (
+    
     <div className='Footer-Container'>
         
       <h3>Follow us on </h3>

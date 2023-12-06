@@ -96,13 +96,13 @@
   width: 100%;
 }
 
-a {
+/* a {
   background-color: rgb(250, 151, 13);
   color: rgb(10, 10, 10);
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
-}
+} */
 
 h6 a{
   background-color:white;
