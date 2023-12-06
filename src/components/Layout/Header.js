@@ -32,6 +32,7 @@ const drawer =(
         <SoupKitchenIcon/>Recipe Hunter
               {/* <img src={SRHLogo.png} alt="logo" height={"70"} width="250" /> */}
         </Typography>
+        <Divider/>
       {/* Responsive Design  ..*/}
               <ul className="mobile-navigation">
                 <li>
@@ -98,7 +99,12 @@ const drawer =(
             <Drawer variant='temporary' 
             open={mobileOpen}
             onClose={handleDrawerToggle}
-            sx={{display:{xs:'block',sm:'none'}}}
+            sx={{display:{xs:'block',sm:'none'},
+            "& .MuiDrawer-paper": {
+                boxSizing: "border-box",
+                width: "240px",
+            },
+        }}
             >
                 {drawer}
             </Drawer>
