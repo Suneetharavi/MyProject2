@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 //Used Styled Components to style the Header
 const Header = styled.div`
-  background-color: black;
+  background-color:gold;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -59,8 +59,8 @@ function FoodSearchPage() {
 
     <Header>
         <div className='AppName'> 
-            <img src="Food Recipe Finder.png " className='AppIcon' alt='logo'/>
-            Food Recipe Finder
+            <img src="R.png " className='AppIcon' alt='logo'/>
+            Recipe Hunter
         </div>
         <div className='SearchBox'>
             

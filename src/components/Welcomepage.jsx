@@ -1,16 +1,21 @@
 import React from 'react'
 import Footer from './Footer/Footer';
 import {Link} from 'react-router-dom';
+import Layout from './Layout/Layout';
+import Header from './Layout/Header';
 
 function Welcomepage() {
   return (
     <div>
-        <h3>Hello welcome to the Food Search recepie</h3>
+        <Header/>
         {/* <img src='Food Recipe Finder.png'></img> */}
 
-        <Link to='/FoodSearchPage'> Lets Find the Recipe </Link>
+        <Layout><h3> Welcome to the Recipe Hunt</h3></Layout>
 
-        <Footer/>
+        <Link to='/FoodSearchPage'> Lets Find the Recipe </Link>
+        <Link to='/About'> About Us</Link>
+        <Link to='/Contact'>Contact</Link>
+        <Footer/> 
 
     </div>
   )
