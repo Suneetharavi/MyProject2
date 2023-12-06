@@ -1,10 +1,10 @@
 .Footer-Container{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 80vh;
+    margin-top: 75vh;
     height: 20vh;
     width: 100vw;
     background-size: cover;
     background-color: rgb(218, 233, 246);
-    background-image: url("https://tenzotea.co/cdn/shop/files/ft_bg.png?v=1636552563");
+    background-image: url("https://t4.ftcdn.net/jpg/03/10/37/25/360_F_310372527_QHGvFcWTuqalbHPabQTmNwJNEQlWeiKv.jpg");
 }
