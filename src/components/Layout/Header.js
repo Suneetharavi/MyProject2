@@ -1,6 +1,7 @@
 import React from 'react'
 import { AppBar,Typography,Toolbar,Box,Divider,Drawer,IconButton } from '@mui/material'
 import FastfoodIcon from '@mui/icons-material/Fastfood';
+import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import SRHLogo from '../../models/logo/SRHLogo.png'
 
 const Header = () => {
@@ -14,7 +15,9 @@ const Header = () => {
               component="div"
               sx={{ flexGrow: 1 }}
             >
-              <img src={SRHLogo.png} alt="logo" height={"70"} width="250" />
+                
+                <SoupKitchenIcon/>Recipe Hunter
+              {/* <img src={SRHLogo.png} alt="logo" height={"70"} width="250" /> */}
         </Typography>
         </AppBar>
 
