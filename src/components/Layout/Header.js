@@ -4,6 +4,7 @@ import FastfoodIcon from '@mui/icons-material/Fastfood';
 import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import SRHLogo from '../../models/logo/SRHLogo.png'
 import {Link} from "react-router-dom";
+import '../../App.css';
 
 const Header = () => {
   return (
@@ -20,11 +21,11 @@ const Header = () => {
                 <SoupKitchenIcon/>Recipe Hunter
               {/* <img src={SRHLogo.png} alt="logo" height={"70"} width="250" /> */}
         </Typography>
-
-        <Box>
+      {/* Responsive Design  ..Mobile View*/}
+        <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
-                  <Link activeClassName="active" to={"/"}>
+                  <Link to={"/"}>
                     Home
                   </Link>
                 </li>

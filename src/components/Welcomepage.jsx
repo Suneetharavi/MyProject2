@@ -13,8 +13,8 @@ function Welcomepage() {
         <Layout><h3> Welcome to the Recipe Hunt</h3></Layout>
 
         <Link to='/FoodSearchPage'> Lets Find the Recipe </Link>
-        <Link to='/About'> About Us</Link>
-        <Link to='/Contact'>Contact</Link>
+        {/* <Link to='/About'> About Us</Link>
+        <Link to='/Contact'>Contact</Link> */}
         <Footer/> 
 
     </div>
