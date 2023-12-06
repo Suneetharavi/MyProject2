@@ -15,7 +15,7 @@ function Welcomepage() {
         <Link to='/FoodSearchPage'> Lets Find the Recipe </Link>
         {/* <Link to='/About'> About Us</Link>
         <Link to='/Contact'>Contact</Link> */}
-        <Footer/> 
+       
 
     </div>
   )

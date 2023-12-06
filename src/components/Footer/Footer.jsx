@@ -8,6 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 import '../Footer/footer.css'
 
 function Footer() {
+  // const imageURL="https://t4.ftcdn.net/jpg/03/10/37/25/360_F_310372527_QHGvFcWTuqalbHPabQTmNwJNEQlWeiKv.jpg"
   return (
     <>
     <Box
