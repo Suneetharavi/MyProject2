@@ -3,6 +3,7 @@ import { AppBar,Typography,Toolbar,Box,Divider,Drawer,IconButton } from '@mui/ma
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import SRHLogo from '../../models/logo/SRHLogo.png'
+import {Link} from "react-router-dom";
 
 const Header = () => {
   return (
@@ -19,6 +20,22 @@ const Header = () => {
                 <SoupKitchenIcon/>Recipe Hunter
               {/* <img src={SRHLogo.png} alt="logo" height={"70"} width="250" /> */}
         </Typography>
+
+        <Box>
+              <ul className="navigation-menu">
+                <li>
+                  <Link activeClassName="active" to={"/"}>
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/About"}>About</Link>
+                </li>
+                <li>
+                  <Link to={"/Contact"}>Contact</Link>
+                </li>
+              </ul>
+            </Box>
         </AppBar>
 
     </Box>
