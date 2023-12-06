@@ -1,39 +1,86 @@
 import React from 'react'
+import { useState } from 'react';
 import { AppBar,Typography,Toolbar,Box,Divider,Drawer,IconButton } from '@mui/material'
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import MenuIcon from '@mui/icons-material/Menu';
 import SRHLogo from '../../models/logo/SRHLogo.png'
 import {Link} from "react-router-dom";
+import { navLink } from 'react-router-dom';
 import '../../App.css';
 
 const Header = () => {
+
+    const [mobileOpen,setMobileOpen] = useState(false)
+    //Adding handling function to MenuIcon
+
+    const handleDrawerToggle = () => {
+        setMobileOpen(!mobileOpen)
+    }
+
+    //menu drawer
+const drawer =(
+    <Box onClick ={handleDrawerToggle} sx={{textAlign:'center'}}>
+
+        <Typography
+              color={"goldenrod"}
+              variant="h6"
+              component="div"
+              sx={{ flexGrow: 1, my:2 }}
+        >
+               
+        <SoupKitchenIcon/>Recipe Hunter
+              {/* <img src={SRHLogo.png} alt="logo" height={"70"} width="250" /> */}
+        </Typography>
+      {/* Responsive Design  ..*/}
+              <ul className="mobile-navigation">
+                <li>
+                <Link activeClassName="active" to={"/"}>
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/About"}>About</Link>
+                </li>
+                <li>
+                  <Link to={"/Contact"}>Contact</Link>
+                </li>
+              </ul>
+    </Box>);
+
+
   return (
     <>
     <Box>
         <AppBar component={'nav'} sx={{ bgcolor: 'black'}}>
             <Toolbar>
-                <IconButton color='inherit' aria-label='open drawer' edge='start'
+                <IconButton 
+                color='inherit' 
+                aria-label='open drawer'
+                edge='start'
                 sx={{mr:2,
                 display:{sm:'none'},
-            }}>
-                <MenuIcon/>
+            }}
+            onClick={handleDrawerToggle}
+            >
+            <MenuIcon/>
             </IconButton>
-        <Typography
+            <Typography
               color={"goldenrod"}
               variant="h6"
               component="div"
               sx={{ flexGrow: 1 }}
             >
                 
-                <SoupKitchenIcon/>Recipe Hunter
+            <SoupKitchenIcon/>Recipe Hunter
               {/* <img src={SRHLogo.png} alt="logo" height={"70"} width="250" /> */}
-        </Typography>
+            </Typography>
+
       {/* Responsive Design  ..Mobile View*/}
         <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
-                  <Link to={"/"}>
+                <Link activeClassName="active" to={"/"}>
                     Home
                   </Link>
                 </li>
@@ -47,7 +94,15 @@ const Header = () => {
             </Box>
             </Toolbar>
         </AppBar>
-
+        <Box component='nav'>
+            <Drawer variant='temporary' 
+            open={mobileOpen}
+            onClose={handleDrawerToggle}
+            sx={{display:{xs:'block',sm:'none'}}}
+            >
+                {drawer}
+            </Drawer>
+        </Box>
     </Box>
     </>
   )
