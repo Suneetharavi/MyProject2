@@ -9,7 +9,7 @@ function Contact() {
   return (
     <Layout>
       <Box sx={{
-        my:10,
+        my:5,
         ml:10,
         "& h4":{fontWeight:"bold",mb:2}
       }}>
@@ -17,7 +17,7 @@ function Contact() {
                 Contact Me
           </Typography>
           <p>
-          Please contact the SRH (Suneetha's Receipe Hunt) for any details. It's a 24/7 working hotline..
+          Please contact the SRH (Suneetha's Receipe Hunter) for any details. It's a 24/7 working hotline..
           </p>
       </Box>
 
@@ -25,6 +25,8 @@ function Contact() {
           m: 3,
           width: "1000px",
           ml: 10,
+
+          //Styling To fit in mobile view
           "@media (max-width:600px)": {
             width: "300px",
           },
@@ -37,7 +39,7 @@ function Contact() {
                 <TableRow>
                   <TableCell  sx={{ bgcolor: "black", color: "white" }}
                   align="center">
-                     Contact Me - The Suneetha's Receipe Hunt (SRH)
+                     Contact Me - The Suneetha's Receipe Hunter (SRH)
                   </TableCell>
                 </TableRow>
               </TableHead>

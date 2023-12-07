@@ -6,7 +6,7 @@ import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import MenuIcon from '@mui/icons-material/Menu';
 import SRHLogo from '../../models/logo/SRHLogo.png'
 import {Link} from "react-router-dom";
-import { navLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../../App.css';
 
 const Header = () => {
@@ -36,15 +36,15 @@ const drawer =(
       {/* Responsive Design  ..*/}
               <ul className="mobile-navigation">
                 <li>
-                <Link to={"/"}>
+                <NavLink to={"/"}>
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to={"/About"}>About</Link>
+                  <NavLink to={"/About"}>About</NavLink>
                 </li>
                 <li>
-                  <Link to={"/Contact"}>Contact</Link>
+                  <NavLink to={"/Contact"}>Contact</NavLink>
                 </li>
               </ul>
     </Box>);
@@ -81,15 +81,15 @@ const drawer =(
         <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="navigation-menu">
                 <li>
-                <Link activeClassName="active" to={"/"}>
+                <NavLink activeClassName="active" to={"/"}>
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to={"/About"}>About</Link>
+                  <NavLink to={"/About"}>About</NavLink>
                 </li>
                 <li>
-                  <Link to={"/Contact"}>Contact</Link>
+                  <NavLink to={"/Contact"}>Contact</NavLink>
                 </li>
               </ul>
             </Box>
