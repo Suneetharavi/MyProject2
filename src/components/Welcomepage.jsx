@@ -12,10 +12,10 @@ function Welcomepage() {
     <div className="home" style={{ backgroundImage: `url(${SRHLogo})` }} >
         <div className="headerContainer">
           {/* <img src="SRHLogo.png"></img> */}
-          <h1>The Recipe Hunt</h1>
+          <h1> Recipe Hunter</h1>
           <h4>The Global Cooking World </h4>
           <Link to='/FoodSearchPage'>
-            <button>Click to Start The Receipe Hunting .. </button> </Link>
+            <button>Click me to Start The Receipe Hunting .. </button> </Link>
         </div>
     </div>
     
