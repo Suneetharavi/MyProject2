@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
-import { Box, Typography } from '@mui/material'
+import { Box, TableCell, TableContainer, TableHead, Typography } from '@mui/material'
 
 function Contact() {
   return (
@@ -19,6 +19,32 @@ function Contact() {
           corrupti, pariatur inventore laboriosam consectetur modi impedit
           error, repudiandae obcaecati doloribus.
           </p>
+      </Box>
+
+      <Box>
+            {/* Tablecontainer contains the table. Giving tablecomponent type as paper which is available in materialUI */}
+        <TableContainer>
+            <Table aria-label='Contact Table'>
+
+                <TableHead>
+                      <TableColumn>
+
+                        <TableRow>
+                          <TableCell>
+
+                            
+                          </TableCell>
+                        </TableRow>
+
+                      </TableColumn>
+
+
+                </TableHead>
+
+
+            </Table>
+
+        </TableContainer>
       </Box>
       </Layout>
   )
