@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
-import { Box, TableCell, TableContainer, TableHead, Typography } from '@mui/material'
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
+import { Box, Table,TableRow,TableBody, TableCell, TableContainer, TableHead, Typography } from '@mui/material'
 
 function Contact() {
   return (
@@ -26,20 +27,26 @@ function Contact() {
         <TableContainer>
             <Table aria-label='Contact Table'>
 
-                <TableHead>
-                      <TableColumn>
-
+                <TableHead>                
                         <TableRow>
                           <TableCell>
 
-                            
+                                  Contact Details
                           </TableCell>
                         </TableRow>
 
-                      </TableColumn>
+              
 
 
                 </TableHead>
+
+                <TableBody>
+                  <TableRow>
+                    <TableCell>
+                                <SupportAgentIcon/>
+                    </TableCell>
+                  </TableRow>
+                </TableBody>
 
 
             </Table>
