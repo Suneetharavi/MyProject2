@@ -2,10 +2,11 @@ import React from 'react'
 import styled from 'styled-components';
 import SearchBar from './SearchBar';
 import RecipeCard from './RecipeCard';
+import Header from './Layout/Header';
 import { useEffect, useState } from 'react';
 
-//Used Styled Components to style the Header
-const Header = styled.div`
+//Used Styled Components to style the Headers
+const Headers = styled.div`
   background-color:gold;
   color: white;
   display: flex;
@@ -55,11 +56,13 @@ function FoodSearchPage() {
 
 
   return (
+    <>
+    <Header/>
     <div className="container">
 
-    <Header>
+    <Headers>
         <div className='AppName'> 
-            <img src="R.png " className='AppIcon' alt='logo'/>
+            <img src="SRHLogo.png " className='AppIcon' alt='logo'/>
             Recipe Hunter
         </div>
         <div className='SearchBox'>
@@ -82,7 +85,7 @@ function FoodSearchPage() {
             </div> */}
         
            </div> 
-    </Header>
+    </Headers>
 
         {/* To Dispaly the fetched data */}
 
@@ -97,6 +100,7 @@ function FoodSearchPage() {
 
         </div>
     </div>
+    </>
   );
 }
 

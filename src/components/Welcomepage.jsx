@@ -3,13 +3,13 @@ import Footer from './Footer/Footer';
 import {Link} from 'react-router-dom';
 import Layout from './Layout/Layout';
 import Header from './Layout/Header';
-import SRHLogo from '../models/logo/SRHLogo.png'
+import Suneetha from '../models/logo/Suneetha.png'
 
 function Welcomepage() {
   return (
     <Layout>
   
-    <div className="home" style={{ backgroundImage: `url(${SRHLogo})` }} >
+    <div className="home" style={{ backgroundImage: `url(${Suneetha})` }} >
         <div className="headerContainer">
           {/* <img src="SRHLogo.png"></img> */}
           <h1> Recipe Hunter</h1>

@@ -20,7 +20,7 @@ const Header = () => {
 
     //menu drawer
 const drawer =(
-    <Box onClick ={handleDrawerToggle} sx={{textAlign:'center',bgcolor:''}}>
+    <Box onClick ={handleDrawerToggle} sx={{textAlign:'center'}}>
 
         <Typography
               color={"goldenrod"}
@@ -111,10 +111,10 @@ const drawer =(
         </Box>
     
     {/* To Fix the hiding content in the pages */}
-    {/* Styling with padding 1 to the page */}
-        <Box>
+    
+       <Box> 
           <Toolbar />
-        </Box>
+      </Box> 
 
     </Box>
     </>

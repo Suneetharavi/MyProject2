@@ -11,13 +11,14 @@ const Footer = () => {
   // const imageURL="https://t4.ftcdn.net/jpg/03/10/37/25/360_F_310372527_QHGvFcWTuqalbHPabQTmNwJNEQlWeiKv.jpg"
   return (
     <>
+    <div className='FooterDiv'>
     <Box
         sx={{ textAlign: "center", bgcolor: "#9f609c", color: "white", p: 2,my:5 }}
       >
         <Box
         //Styling icons onhover animating to goldcolour
           sx={{
-                my: 3,               //margin:3
+                my: 0,               //margin:3
                 "& svg": {                  //Targettin svg images directly
                   fontSize: "30px",
                   cursor: "pointer",
@@ -51,6 +52,7 @@ const Footer = () => {
               All Rights Reserved &copy; Suneetha's Receipe Hunt
       </Typography>
     </Box>  
+    </div>
   </>
   );
 };

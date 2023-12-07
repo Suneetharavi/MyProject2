@@ -9,6 +9,7 @@
   margin: 30px auto;
   padding: 30px;
   border-radius: 20px;
+  margin-top: 9px;
 }
 
 .AppName{
@@ -104,12 +105,17 @@
   text-decoration: none;
 } */
 
-h6 a{
+.card-body h6 a{
   background-color:white;
   color: rgb(236, 15, 15);
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
+}
+
+.card-body h6{
+
+  margin: 10px;
 }
 
 .YoutubeLinkClass{
@@ -129,7 +135,7 @@ h6 a{
   background-color: #f7f7f7;
 }
 .card-body {
-  padding: 1px;
+  padding: 2px;
   text-align: center;
  
 }
@@ -179,7 +185,7 @@ h6 a{
 }
 
 .headerContainer button {
-  background-color:  #ed6ced;
+  background-color:  #ebb2eb;
   margin-top: 9px;
   border: none;
   border-radius: 5px;
