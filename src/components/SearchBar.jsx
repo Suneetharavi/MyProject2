@@ -1,5 +1,5 @@
 import React from 'react'
-import { useRef } from 'react'
+
 
 const SearchBar = ({
     handleSubmit,
@@ -7,8 +7,6 @@ const SearchBar = ({
     isLoading,
     setQuery
 }) => {
-
-    const userefData = useRef(null);
     
     return (
         <form onSubmit={handleSubmit}>

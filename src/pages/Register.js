@@ -1,25 +1,24 @@
-import {React, useRef} from 'react';
+import React, {useRef} from 'react';
 
-function Register() {
+const Register=() =>{
 
     const dataref = useRef(null);
-    const submit=e=>{
+    const submitHandler = e => {
         e.preventDefault();
+        console.log(dataref.current.value)
     }
 
 
   return (
-<>
+    <div>
         <div>Please Register for Latest Updates</div>
 
-        <form>
-            <input ref={data} type="text" placeholder='Enter your Email Id'/> <br/>
+        <form onSubmit={submitHandler}>
+            <input ref={dataref} type="text" placeholder='Enter your Email Id'/><br/>
             <input type = 'submit'/>            
         </form>                    
        
-</>
-    
-  )
-}
-
+    </div>
+)}
+  
 export default Register
