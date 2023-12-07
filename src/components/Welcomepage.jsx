@@ -9,12 +9,13 @@ function Welcomepage() {
   return (
     <Layout>
   
-    <div className="home" style={{ backgroundImage: `url(${SRHLogo})` }}>
+    <div className="home" style={{ backgroundImage: `url(${SRHLogo})` }} >
         <div className="headerContainer">
-          <h1>Food Website</h1>
-          <p>Best Food In India</p>
-          <Link to='/FoodSearchPage'>Receipe Hunting Starts now..  </Link>
-            <button>Lets Find the Recipe!</button>
+          {/* <img src="SRHLogo.png"></img> */}
+          <h1>The Recipe Hunt</h1>
+          <h4>The Global Cooking World </h4>
+          <Link to='/FoodSearchPage'>
+            <button>Click to Start The Receipe Hunting .. </button> </Link>
         </div>
     </div>
     

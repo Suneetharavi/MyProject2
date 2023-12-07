@@ -12,16 +12,18 @@ const Footer = () => {
   return (
     <>
     <Box
-        sx={{ textAlign: "center", bgcolor: "#1A1A19", color: "white", p: 3 }}
+        sx={{ textAlign: "center", bgcolor: "#9f609c", color: "white", p: 2,my:5 }}
       >
         <Box
         //Styling icons onhover animating to goldcolour
           sx={{
                 my: 3,               //margin:3
                 "& svg": {                  //Targettin svg images directly
-                  fontSize: "60px",
+                  fontSize: "30px",
                   cursor: "pointer",
-                  mr: 2,                //margin right:2
+                  mr: 2,     //margin right:2
+
+                  
                 },
                 "& svg:hover": {             //Styling onhover
                   color: "goldenrod",

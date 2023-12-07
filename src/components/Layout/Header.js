@@ -20,7 +20,7 @@ const Header = () => {
 
     //menu drawer
 const drawer =(
-    <Box onClick ={handleDrawerToggle} sx={{textAlign:'center'}}>
+    <Box onClick ={handleDrawerToggle} sx={{textAlign:'center',bgcolor:''}}>
 
         <Typography
               color={"goldenrod"}
@@ -29,14 +29,14 @@ const drawer =(
               sx={{ flexGrow: 1, my:2 }}
         >
                
-        <SoupKitchenIcon/>Recipe Hunter
+        <SoupKitchenIcon/>Recipe Hunt
               {/* <img src={SRHLogo.png} alt="logo" height={"70"} width="250" /> */}
         </Typography>
         <Divider/>
       {/* Responsive Design  ..*/}
               <ul className="mobile-navigation">
                 <li>
-                <Link activeClassName="active" to={"/"}>
+                <Link to={"/"}>
                     Home
                   </Link>
                 </li>
@@ -53,7 +53,7 @@ const drawer =(
   return (
     <>
     <Box>
-        <AppBar component={'nav'} sx={{ bgcolor: 'black'}}>
+        <AppBar component={'nav'} sx={{ bgcolor: ' #9f609c'}}>
             <Toolbar>
                 <IconButton 
                 color='inherit' 
@@ -112,7 +112,7 @@ const drawer =(
     
     {/* To Fix the hiding content in the pages */}
     {/* Styling with padding 1 to the page */}
-        <Box sx={{ p:1 }}>
+        <Box>
           <Toolbar />
         </Box>
 
