@@ -19,7 +19,7 @@ const About = () => {
           "& p": {
             textAlign: "justify",
           },
-          "@media (max-width:600px)": {
+          "@media (max-width:500px)": {
             mt: 0,
             "& h4 ": {
               fontSize: "1.5rem",
