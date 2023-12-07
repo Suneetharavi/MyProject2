@@ -31,8 +31,9 @@ function Contact() {
 
               <TableHead>                
                 <TableRow>
-                  <TableCell>
-                     Contact Suneetha's Receipe Hunt (SRH)
+                  <TableCell  sx={{ bgcolor: "black", color: "white" }}
+                  align="center">
+                     Contact Me - The Suneetha's Receipe Hunt (SRH)
                   </TableCell>
                 </TableRow>
               </TableHead>
