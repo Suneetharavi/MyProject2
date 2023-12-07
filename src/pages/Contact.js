@@ -13,18 +13,22 @@ function Contact() {
         ml:10,
         "& h4":{fontWeight:"bold",mb:2}
       }}>
-          <Typography variant='h4'>
+          <Typography variant='h4' >
                 Contact Me
           </Typography>
           <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio
-          beatae ducimus magni nobis culpa praesentium velit expedita quae,
-          corrupti, pariatur inventore laboriosam consectetur modi impedit
-          error, repudiandae obcaecati doloribus.
+          Please contact the SRH (Suneetha's Receipe Hunt) for any details. It's a 24/7 working hotline..
           </p>
       </Box>
 
-      <Box>
+      <Box  sx={{
+          m: 3,
+          width: "1000px",
+          ml: 10,
+          "@media (max-width:600px)": {
+            width: "300px",
+          },
+        }}>
             {/* Tablecontainer contains the table. Giving tablecomponent type as paper which is available in materialUI */}
         <TableContainer>
             <Table aria-label='Contact Table'>
