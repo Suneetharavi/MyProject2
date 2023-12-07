@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout/Layout'
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import MailIcon from "@mui/icons-material/Mail";
+import CallIcon from "@mui/icons-material/Call";
 import { Box, Table,TableRow,TableBody, TableCell, TableContainer, TableHead, Typography } from '@mui/material'
 
 function Contact() {
@@ -50,9 +51,16 @@ function Contact() {
 
                   <TableRow>
                 <TableCell>
-                  <MailIcon sx={{ color: "skyblue", pt: 1 }} /> suneetha.gopu3@gmail.com
+                  <MailIcon sx={{ color: "skyblue", pt: 1 }} /> mail2.suneetha@srh.com
                 </TableCell>
               </TableRow>
+
+              <TableRow>
+                <TableCell>
+                  <CallIcon sx={{ color: "green", pt: 1 }} /> 1234567890
+                </TableCell>
+              </TableRow>
+
                 </TableBody>
 
 

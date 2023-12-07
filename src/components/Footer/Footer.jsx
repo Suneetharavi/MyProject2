@@ -18,7 +18,7 @@ const Footer = () => {
         <Box
         //Styling icons onhover animating to goldcolour
           sx={{
-                my: 0,               //margin:3
+                my: 3,               //margin:3
                 "& svg": {                  //Targettin svg images directly
                   fontSize: "30px",
                   cursor: "pointer",
