@@ -3,7 +3,7 @@ import Layout from '../components/Layout/Layout'
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import MailIcon from "@mui/icons-material/Mail";
 import CallIcon from "@mui/icons-material/Call";
-import { Box, Table,TableRow,TableBody, TableCell, TableContainer, TableHead, Typography } from '@mui/material'
+import { Box, Table, TableRow, TableBody, TableCell, TableContainer, TableHead, Typography } from '@mui/material'
 
 function Contact() {
   return (
@@ -29,43 +29,36 @@ function Contact() {
         <TableContainer>
             <Table aria-label='Contact Table'>
 
-                <TableHead>                
-                        <TableRow>
-                          <TableCell>
+              <TableHead>                
+                <TableRow>
+                  <TableCell>
+                     Contact Suneetha's Receipe Hunt (SRH)
+                  </TableCell>
+                </TableRow>
+              </TableHead>
 
-                                  Contact Details
-                          </TableCell>
-                        </TableRow>
+              <TableBody>
+                <TableRow>
+                  <TableCell>
+                      <SupportAgentIcon sx={{ color: "red", pt: 1 }}/>1800-000-0000
+                  </TableCell>
+                </TableRow>
 
-              
+                <TableRow>
+                  <TableCell>
+                    <MailIcon sx={{ color: "skyblue", pt: 1 }} /> mail2.suneetha@srh.com
+                  </TableCell>
+                </TableRow>
 
+                <TableRow>
+                  <TableCell>
+                    <CallIcon sx={{ color: "green", pt: 1 }} /> 1234567890
+                  </TableCell>
+                </TableRow>
 
-                </TableHead>
-
-                <TableBody>
-                  <TableRow>
-                    <TableCell>
-                        <SupportAgentIcon sx={{ color: "red", pt: 1 }}/>1800-000-0000
-                    </TableCell>
-                  </TableRow>
-
-                  <TableRow>
-                <TableCell>
-                  <MailIcon sx={{ color: "skyblue", pt: 1 }} /> mail2.suneetha@srh.com
-                </TableCell>
-              </TableRow>
-
-              <TableRow>
-                <TableCell>
-                  <CallIcon sx={{ color: "green", pt: 1 }} /> 1234567890
-                </TableCell>
-              </TableRow>
-
-                </TableBody>
-
+              </TableBody>
 
             </Table>
-
         </TableContainer>
       </Box>
       </Layout>
