@@ -1,4 +1,5 @@
 import React from 'react'
+import { useRef } from 'react'
 
 const SearchBar = ({
     handleSubmit,
@@ -6,6 +7,9 @@ const SearchBar = ({
     isLoading,
     setQuery
 }) => {
+
+    const userefData = useRef(null);
+    
     return (
         <form onSubmit={handleSubmit}>
             <input 
@@ -14,6 +18,8 @@ const SearchBar = ({
                 placeholder="Search Recipe"
                 name="query"
                 disabled={isLoading}
+                ref={userefData}
+                type='text'
                 onChange={(event) => setQuery(event.target.value)}
                 
             />   

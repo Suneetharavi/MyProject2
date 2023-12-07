@@ -36,7 +36,7 @@ const drawer =(
       {/* Responsive Design  ..*/}
               <ul className="mobile-navigation">
                 <li>
-                <NavLink to={"/"}>
+                <NavLink activeClassName="active" to={"/"}>
                     Home
                   </NavLink>
                 </li>
@@ -45,6 +45,9 @@ const drawer =(
                 </li>
                 <li>
                   <NavLink to={"/Contact"}>Contact</NavLink>
+                </li>
+                <li>
+                  <NavLink to={"/Register"}>Register</NavLink>
                 </li>
               </ul>
     </Box>);
@@ -90,6 +93,9 @@ const drawer =(
                 </li>
                 <li>
                   <NavLink to={"/Contact"}>Contact</NavLink>
+                </li>
+                <li>
+                  <NavLink to={"/Register"}>Register</NavLink>
                 </li>
               </ul>
             </Box>

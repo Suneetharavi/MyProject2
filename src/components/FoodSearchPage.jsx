@@ -38,11 +38,12 @@ function FoodSearchPage() {
     const response=await fetch(url);
     //Get the Json data
     const data = await response.json();
-
+      
     console.log(data);
     setRecipes(data.meals);
     setIsloading(false);
-
+  
+    
   };
 
   useEffect(() => {
@@ -52,6 +53,7 @@ function FoodSearchPage() {
   const handleSubmit = event => {
     event.preventDefault();
     searchRecipes();
+    // event.target.value='';
   }
 
 
@@ -78,6 +80,7 @@ function FoodSearchPage() {
                        query={query}
                        setQuery={setQuery}
                        handleSubmit={handleSubmit}
+                       
                 />
             </div>
             {/* <div className='SearchIcon'> 
