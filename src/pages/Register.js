@@ -3,6 +3,7 @@ import Header from '../components/Layout/Header';
 import Footer from '../components/Footer/Footer';
 import '../App.css';
 import RegisterContext from '../components/RegisterContext';
+import Layout from "./../components/Layout/Layout";
 
 
 
@@ -30,12 +31,13 @@ const Register=() =>{
             <button className='submit-button-class' ><h4>Submit</h4> </button>           
         </form>                    
         </div>
+    
     </div>
-
-   
-         <RegisterContext/>
-
-  
+    
+    <div className='Texth1class'>Our Sponsers and Customers</div>
+    <RegisterContext/>
+    {/* <Layout/> */}
+        
     <div className='FooterClass1'>
     <Footer/>
     </div>

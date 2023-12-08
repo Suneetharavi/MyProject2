@@ -36,19 +36,31 @@ function RegisterContext(props) {
                       <marquee>
 
                         <div className='FinalImagesDiv'>
-                        
-                        <img className='MyImage' src={pic5}></img>
+
+                        <img className='MyImage' src={pic10}></img>
+                        <img className='MyImage' src={pic1}></img> 
+                        <img className='MyImage' src={pic0}></img>                            
                         <img className='MyImage' src={pic2}></img>
                         <img className='MyImage' src={pic3}></img>
-                        <img className='MyImage' src={pic1}></img>
-                        <img className='MyImage' src={pic0}></img>
+                        <img className='MyImage' src={pic5}></img>                        
                         <img className='MyImage' src={pic4}></img>
                         <img className='MyImage' src={pic6}></img>
                         <img className='MyImage' src={pic7}></img>
                         <img className='MyImage' src={pic8}></img>
                         <img className='MyImage' src={pic9}></img>
                         <img className='MyImage' src={pic10}></img>
-                        <img className='MyImage' src={pic11}></img>
+                        <img className='MyImage' src={pic1}></img> 
+                        <img className='MyImage' src={pic0}></img>                            
+                        <img className='MyImage' src={pic2}></img>
+                        <img className='MyImage' src={pic3}></img>
+                        <img className='MyImage' src={pic5}></img>                        
+                        <img className='MyImage' src={pic4}></img>
+                        <img className='MyImage' src={pic6}></img>
+                        <img className='MyImage' src={pic7}></img>
+                        <img className='MyImage' src={pic8}></img>
+                        <img className='MyImage' src={pic9}></img>
+                       
+                        
 
                         </div>
 

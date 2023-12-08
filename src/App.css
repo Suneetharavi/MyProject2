@@ -292,6 +292,7 @@ input:focus {
   font-weight: bold;
   margin-left: 50vh;
   margin-top: 10vh;
+  color: #981778;
 
 }
 
@@ -315,9 +316,18 @@ input:focus {
 
 .FooterClass1{
 
-margin-top:-7%;
+margin-top:-21%;
 }
 
+.Texth1class{
+
+  font-weight: bold;
+  margin-left: 50vh;
+  font-size: 35px;
+  margin-top: 10%;
+  color: #981778;
+
+}
 
 .textboxClass{
   border-color: #ebb2eb;
@@ -329,10 +339,10 @@ margin-top:-7%;
 
 .ContainerRegisterClass{
 
-  width: 100vw;
+  width: 100wh;
   height: 100vh;
   color: #000000;
-
+  margin-top: -19%;
   position: relative;
   display: flex;
   align-items: center;
@@ -369,7 +379,7 @@ margin-top:-7%;
   flex-shrink: 0;
   display: flex;
   align-items: center;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   white-space: nowrap;
   width: 100%;
   /* animation: ${scrollX} 30s linear infinite; */
@@ -390,7 +400,7 @@ margin-top:-7%;
   height: 100%;
   /* border: 1px solid black; */
   border-radius: 0.5rem;
-  aspect-ratio: 16/9;
+  aspect-ratio: 18/9;
   padding: 5px 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
