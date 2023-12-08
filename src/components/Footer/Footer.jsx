@@ -5,6 +5,7 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { FaFacebook } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import '../Footer/footer.css'
 
 const Footer = () => {
@@ -34,11 +35,12 @@ const Footer = () => {
               }}
           >   
           <h3>Follow us on </h3>
-            <FaFacebook />
-            <AiFillTwitterCircle />
-            <PiInstagramLogoFill />
-            <GitHubIcon />
-            <YouTubeIcon />
+
+            <a href='https://www.facebook.com/singer.sunitha/' color='inherit'><FaFacebook /></a>
+            <a href='https://www.instagram.com/upadrastasunitha/?hl=en'><AiFillTwitterCircle /></a>
+            <a href='https://www.instagram.com/vahchef/?hl=en'><PiInstagramLogoFill /></a>
+            <a href='https://www.vahrehvah.com/'><GitHubIcon /></a>
+            <a href='https://www.youtube.com/channel/UC_R8qIXaTKpkAJuuiZhHTmA'><YouTubeIcon /></a>
         </Box>
   
       <Typography
