@@ -1,5 +1,6 @@
 import React, {useRef, useEffect} from 'react';
 import Header from '../components/Layout/Header';
+import Footer from '../components/Footer/Footer';
 import '../App.css';
 
 const Register=() =>{
@@ -15,16 +16,27 @@ const Register=() =>{
     },[])
 
   return (
+    <>
+    <Header/>
     <div className='RegisterMainDiv'>
-        <Header/>
-        <div>Please Register for Latest Updates</div>
-
+        
+        <h1>Please Register for Latest Updates</h1>
+        <div className='FormClass'>
         <form onSubmit={submitHandler}>
-            <input ref={dataref} type="text" placeholder='Enter your Email Id'/><br/>
-            <input type = 'submit'/>            
+            <input  className='textboxClass' ref={dataref} type="text" placeholder='Enter your Email Id'/><br/>
+            <button className='submit-button-class' ><h4>Submit</h4> </button>           
         </form>                    
-       
+        </div>
     </div>
+
+    <div className='Trending Recepies'>
+
+
+    </div>
+    <div className='FooterClass'>
+    <Footer/>
+    </div>
+    </>
 )}
   
 export default Register

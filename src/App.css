@@ -291,5 +291,29 @@ input:focus {
 
   font-weight: bold;
   margin-left: 50vh;
+  margin-top: 10vh;
 
+}
+
+.FormClass{
+  margin-left: -126vh;
+  margin-top: 10vh;
+}
+
+.submit-button-class{
+  background-color: #ebb2eb;
+  width: 70px;
+  border-radius:30px;
+  cursor: pointer;
+  
+}
+
+.FooterClass{
+ position: relative;
+  margin-top:47vh;
+}
+
+.textboxClass{
+  border-color: #ebb2eb;
+  margin-right: 20px;
 }
