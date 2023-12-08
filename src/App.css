@@ -286,3 +286,10 @@ input:focus {
   font-size: 1.4rem;
   color: black;
 }
+
+.RegisterMainDiv{
+
+  font-weight: bold;
+  margin-left: 50vh;
+
+}

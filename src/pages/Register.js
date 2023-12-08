@@ -1,4 +1,6 @@
 import React, {useRef, useEffect} from 'react';
+import Header from '../components/Layout/Header';
+import '../App.css';
 
 const Register=() =>{
 
@@ -13,7 +15,8 @@ const Register=() =>{
     },[])
 
   return (
-    <div>
+    <div className='RegisterMainDiv'>
+        <Header/>
         <div>Please Register for Latest Updates</div>
 
         <form onSubmit={submitHandler}>
