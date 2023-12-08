@@ -2,6 +2,7 @@ import React, {useRef, useEffect} from 'react';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Footer/Footer';
 import '../App.css';
+import RegisterContext from '../components/RegisterContext';
 
 const Register=() =>{
 
@@ -29,8 +30,9 @@ const Register=() =>{
         </div>
     </div>
 
-    <div className='Trending Recepies'>
+    <div className='SponsersDiv'>
 
+        <RegisterContext/>
 
     </div>
     <div className='FooterClass'>
