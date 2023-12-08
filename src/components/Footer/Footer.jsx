@@ -36,7 +36,7 @@ const Footer = () => {
           >   
           <h3>Follow us on </h3>
 
-            <a href='https://www.facebook.com/singer.sunitha/' color='inherit'><FaFacebook /></a>
+            <a href='https://www.facebook.com/singer.sunitha/' color='white'><FaFacebook sx={{ color: "white"}} /></a>
             <a href='https://www.instagram.com/upadrastasunitha/?hl=en'><AiFillTwitterCircle /></a>
             <a href='https://www.instagram.com/vahchef/?hl=en'><PiInstagramLogoFill /></a>
             <a href='https://www.vahrehvah.com/'><GitHubIcon /></a>
@@ -45,7 +45,7 @@ const Footer = () => {
   
       <Typography
             variant="h7"
-            //Styling for responsive design
+            //Styling for responsive design(mobile)
             sx={{
               "@media (max-width:600px)": {
                 fontSize: "1rem",
