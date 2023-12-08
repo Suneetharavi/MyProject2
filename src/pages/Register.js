@@ -4,6 +4,8 @@ import Footer from '../components/Footer/Footer';
 import '../App.css';
 import RegisterContext from '../components/RegisterContext';
 
+
+
 const Register=() =>{
 
     const dataref = useRef(null);
@@ -30,14 +32,20 @@ const Register=() =>{
         </div>
     </div>
 
-    <div className='SponsersDiv'>
-        
-        <RegisterContext/>
+    <div className=''>
+    
+
+   <RegisterContext/>
+
+
+
 
     </div>
     <div className='FooterClass'>
     <Footer/>
     </div>
+
+
     </>
 )}
   

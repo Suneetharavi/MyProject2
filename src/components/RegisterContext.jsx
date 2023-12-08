@@ -8,17 +8,32 @@ function RegisterContext(props) {
     console.log(contextpicture.picture);
   return (
 
-    <div>RegisterContext
+    <div>
    
 
     {contextpicture.picture.map((pic) =>
     {
         return(
+          <>
           
-                <img src={pic}></img>
-                
-           
+        <div className='ContainerRegisterClass'  >
+        
+          <div className='RegisterImagesclass'>
+          
+            <div className='Marquees'>
             
+                <div className='MarqueeGroup>'>
+               
+                    <div className='ImageGroup'>
+                    
+                      <marquee><img className='MyImage' src={pic}></img>hello world</marquee>
+                      
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>        
+        </>  
         )
     } )}
 
