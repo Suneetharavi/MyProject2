@@ -9,8 +9,6 @@ function AppContextProvider(props){
 
     const [picture, setPicture] = useState(contextimages)
 
-    
-
     return(
 
         <ImagesContext.Provider value = {{

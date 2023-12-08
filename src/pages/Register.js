@@ -31,7 +31,7 @@ const Register=() =>{
     </div>
 
     <div className='SponsersDiv'>
-
+        
         <RegisterContext/>
 
     </div>

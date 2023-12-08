@@ -9,10 +9,5 @@ const contextimages = [
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/3cd767dea94a85078ca4.png",
     "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/a2b3c3709ffedce2a22a.png",
 
-    // 'Teddy',
-    // "SoftToys",
-    // 'Bike',
-    // 'Remote car',
-    // 'Xbox'
-  ];
+]
   export default contextimages;
