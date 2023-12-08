@@ -16,7 +16,7 @@ const SearchBar = ({
                 placeholder="Search Recipe"
                 name="query"
                 disabled={isLoading}
-                ref={userefData}
+                
                 type='text'
                 onChange={(event) => setQuery(event.target.value)}
                 

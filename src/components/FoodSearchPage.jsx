@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import SearchBar from './SearchBar';
 import RecipeCard from './RecipeCard';
 import Header from './Layout/Header';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 //Used Styled Components to style the Headers
 const Headers = styled.div`
@@ -30,20 +30,23 @@ function FoodSearchPage() {
   //To get the recipes data
   const[recipes,setRecipes]=useState([]);
 
+  const data1=useRef('null');
+
   var apiUrl = `https://www.themealdb.com/api/json/v1/1/search.php?s=`;
 
   const searchRecipes = async()=>{
     setIsloading(true);
+    
     const url= apiUrl + query;
     const response=await fetch(url);
+    
     //Get the Json data
     const data = await response.json();
-      
+    
     console.log(data);
     setRecipes(data.meals);
     setIsloading(false);
   
-    
   };
 
   useEffect(() => {
