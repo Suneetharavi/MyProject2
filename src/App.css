@@ -391,6 +391,8 @@ margin-top:-21%;
   place-items: center;
   width: clamp(10rem, 1rem + 40vmin, 30rem);
   padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
+  animation-delay: -3s;
+ 
 }
 
 .MyImage{

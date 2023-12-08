@@ -42,7 +42,7 @@ const About = () => {
           saepe voluptatem commodi laudantium quibusdam repellat nobis libero at
           consectetur adipisci ipsa.
         </p>
-        <br />
+        <br /><br/>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
           deserunt libero reprehenderit cum sint fugit cumque temporibus modi
@@ -57,6 +57,37 @@ const About = () => {
           tempore voluptatibus perferendis esse eaque temporibus porro?
           Aspernatur beatae deleniti illo autem!
         </p>
+
+        <br /><br/>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+          deserunt libero reprehenderit cum sint fugit cumque temporibus modi
+          facere eveniet amet obcaecati ducimus harum velit maxime vel qui
+          voluptatibus quam odio corrupti saepe, voluptas dolorum quidem
+          tempore? Esse sapiente molestias minus enim quisquam dolorum eum culpa
+          ullam impedit velit quo, corporis ducimus numquam dignissimos
+          inventore maiores. Nam deleniti itaque nostrum neque dolorum dolores,
+          aliquam, voluptatum sapiente doloribus laborum perspiciatis ipsam, quo
+          ut nisi distinctio sunt nihil est blanditiis perferendis eveniet
+          nesciunt! Nostrum, voluptatum eveniet repellat vel officia deleniti
+          tempore voluptatibus perferendis esse eaque temporibus porro?
+          Aspernatur beatae deleniti illo autem!
+        </p>
+        <br /><br/>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+          deserunt libero reprehenderit cum sint fugit cumque temporibus modi
+          facere eveniet amet obcaecati ducimus harum velit maxime vel qui
+          voluptatibus quam odio corrupti saepe, voluptas dolorum quidem
+          tempore? Esse sapiente molestias minus enim quisquam dolorum eum culpa
+          ullam impedit velit quo, corporis ducimus numquam dignissimos
+          inventore maiores. Nam deleniti itaque nostrum neque dolorum dolores,
+          aliquam, voluptatum sapiente doloribus laborum perspiciatis ipsam, quo
+          ut nisi distinctio sunt nihil est blanditiis perferendis eveniet
+          nesciunt! Nostrum, voluptatum eveniet repellat vel officia deleniti
+          tempore voluptatibus perferendis esse eaque temporibus porro?
+          Aspernatur beatae deleniti illo autem!
+        </p><br/>
       </Box>
     </Layout>
   );

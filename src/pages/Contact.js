@@ -3,21 +3,23 @@ import Layout from '../components/Layout/Layout'
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import MailIcon from "@mui/icons-material/Mail";
 import CallIcon from "@mui/icons-material/Call";
+import FaxIcon from '@mui/icons-material/Fax';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { Box, Table, TableRow, TableBody, TableCell, TableContainer, TableHead, Typography } from '@mui/material'
 
 function Contact() {
   return (
     <Layout>
       <Box sx={{
-        my:5,
+        my:10,
         ml:10,
-        "& h4":{fontWeight:"bold",mb:2}
+        "& h4":{fontWeight:"bold",mb:2,color:'purple'}
       }}>
           <Typography variant='h4' >
                 Contact Me
           </Typography>
           <p>
-          Please contact the SRH (Suneetha's Receipe Hunter) for any details. It's a 24/7 working hotline..
+          Please contact the SRH (Suneetha's Receipe Hunter) for any details. <p></p>It's a 24/7 working hotline..
           </p>
       </Box>
 
@@ -25,6 +27,7 @@ function Contact() {
           m: 3,
           width: "1000px",
           ml: 10,
+          my:9.8,
 
           //Styling To fit in mobile view
           "@media (max-width:600px)": {
@@ -53,6 +56,12 @@ function Contact() {
 
                 <TableRow>
                   <TableCell>
+                    <LocationOnIcon sx={{ color: "blue", pt: 1 }} /> USA
+                  </TableCell>
+                </TableRow>
+
+                <TableRow>
+                  <TableCell>
                     <MailIcon sx={{ color: "skyblue", pt: 1 }} /> mail2.suneetha@srh.com
                   </TableCell>
                 </TableRow>
@@ -60,6 +69,12 @@ function Contact() {
                 <TableRow>
                   <TableCell>
                     <CallIcon sx={{ color: "green", pt: 1 }} /> 1234567890
+                  </TableCell>
+                </TableRow>
+                
+                <TableRow>
+                  <TableCell>
+                    <FaxIcon sx={{ color: "orange", pt: 1 }} /> 1111111
                   </TableCell>
                 </TableRow>
 
