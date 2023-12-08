@@ -32,19 +32,13 @@ const Register=() =>{
         </div>
     </div>
 
-    <div className=''>
-    
+   
+         <RegisterContext/>
 
-   <RegisterContext/>
-
-
-
-
-    </div>
-    <div className='FooterClass'>
+  
+    <div className='FooterClass1'>
     <Footer/>
     </div>
-
 
     </>
 )}
