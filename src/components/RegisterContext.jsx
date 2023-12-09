@@ -33,7 +33,7 @@ function RegisterContext(props) {
                
                     <div className='ImageGroup'>
                     
-                      <marquee>
+                      <marquee width='250px' height='200px'>
 
                         <div className='FinalImagesDiv'>
 

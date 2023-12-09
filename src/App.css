@@ -361,9 +361,10 @@ margin-top:-21%;
 
 .Marquees{
   display: flex;
-  width: 1200px;
+  width: 70%;
   overflow: hidden;
   user-select: none;
+  margin-left: 20%;
 
   mask-image: linear-gradient(
     to right,
@@ -376,13 +377,13 @@ margin-top:-21%;
 
 .MarqueeGroup{
 
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   display: flex;
   align-items: center;
   justify-content: space-around;
   white-space: nowrap;
   width: 1500%;
-  /* animation: ${scrollX} 30s linear infinite; */
+  animation: 3s linear infinite;
 }
 
 .ImageGroup{
@@ -391,7 +392,7 @@ margin-top:-21%;
   place-items: center;
   width: clamp(10rem, 1rem + 40vmin, 30rem);
   padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
-  animation-delay: -3s;
+  animation-delay: -10s;
  
 }
 

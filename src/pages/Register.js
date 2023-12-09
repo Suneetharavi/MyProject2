@@ -22,9 +22,10 @@ const Register=() =>{
   return (
     <>
     <Header/>
+    {/* <Layout> */}
     <div className='RegisterMainDiv'>
         
-        <h1>Please Register for Latest Updates</h1>
+        <h1>Please Register for Collaborations and Offers</h1>
         <div className='FormClass'>
         <form onSubmit={submitHandler}>
             <input  className='textboxClass' ref={dataref} type="text" placeholder='Enter your Email Id'/><br/>
@@ -36,8 +37,8 @@ const Register=() =>{
     
     <div className='Texth1class'>Our Sponsers and Customers</div>
     <RegisterContext/>
-    {/* <Layout/> */}
-        
+    {/* </Layout> */}
+       
     <div className='FooterClass1'>
     <Footer/>
     </div>
