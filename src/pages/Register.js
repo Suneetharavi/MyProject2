@@ -3,6 +3,8 @@ import Header from '../components/Layout/Header';
 import Footer from '../components/Footer/Footer';
 import '../App.css';
 import RegisterContext from '../components/RegisterContext';
+import Layout from "./../components/Layout/Layout";
+
 
 
 const Register=() =>{
@@ -34,7 +36,7 @@ const Register=() =>{
     
     <div className='Texth1class'>Our Sponsers and Customers</div>
     <RegisterContext/>
-    
+    {/* <Layout/> */}
         
     <div className='FooterClass1'>
     <Footer/>

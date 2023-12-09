@@ -11,15 +11,20 @@ function Contact() {
   return (
     <Layout>
       <Box sx={{
-        my:10,
+        my:2,
         ml:10,
-        "& h4":{fontWeight:"bold",mb:2,color:'purple'}
+        textAlign:'center',
+        "& h4":{fontWeight:"bold",mb:2,color:'purple'},
+        "& p":{mb:2,color:'#D988B9'}
       }}>
+
+    <div><img src='SRHLogo.png' width='100px'></img></div>
           <Typography variant='h4' >
                 Contact Me
           </Typography>
           <p>
-          Please contact the SRH (Suneetha's Receipe Hunter) for any details. <p></p>It's a 24/7 working hotline..
+          Please contact the SRH (Suneetha's Receipe Hunter) for any details. <p>
+          It's a 24/7 working hotline.</p>
           </p>
       </Box>
 
@@ -27,20 +32,22 @@ function Contact() {
           m: 3,
           width: "1000px",
           ml: 10,
-          my:9.8,
+          my:7,
 
           //Styling To fit in mobile view
           "@media (max-width:600px)": {
             width: "300px",
           },
         }}>
+         
+         
             {/* Tablecontainer contains the table. Giving tablecomponent type as paper which is available in materialUI */}
         <TableContainer>
             <Table aria-label='Contact Table'>
 
               <TableHead>                
                 <TableRow>
-                  <TableCell  sx={{ bgcolor: "black", color: "white" }}
+                  <TableCell  sx={{ bgcolor: "black", color: "#D988B9" }}
                   align="center">
                      Contact Me - The Suneetha's Receipe Hunter (SRH)
                   </TableCell>
