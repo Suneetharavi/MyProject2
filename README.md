@@ -50,7 +50,16 @@ _____________________________________________________
 _______________________________________________________________________
 
  ![SRHLogo](https://github.com/Suneetharavi/MyProject2/blob/master/src/models/logo/SuneethaLogo.png?raw=true)
- ![Home page]()
+ ![Home page](https://github.com/Suneetharavi/MyProject2/blob/master/src/models/logo/SRH%20Screenshot.png?raw=true)
+
+
+ ###                 Contact ME
+ ________________________________________________________
+
+For Further Enquiry or to build a Business Relation , reach me out on
+
+Email: Itsdummyemail@gmail.com
+
 
 
 ###           Used a free ThemealDB API
@@ -126,3 +135,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+# Enjoy the Recipe Hunt and have a delicious and healthy food ..!
+
+
+
+
+
