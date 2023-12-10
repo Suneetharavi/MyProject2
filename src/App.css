@@ -290,14 +290,15 @@ input:focus {
 .RegisterMainDiv{
 
   font-weight: bold;
-  margin-left: 50vh;
+  /* margin-left: 50vh; */
   margin-top: 10vh;
   color: #981778;
+  text-align: center;
 
 }
 
 .FormClass{
-  margin-left: -126vh;
+  /* margin-left: -126vh; */
   margin-top: 10vh;
 }
 
@@ -316,15 +317,16 @@ input:focus {
 
 .FooterClass1{
 
-margin-top:-21%;
+margin-top:-8.4%;
 }
 
 .Texth1class{
 
   font-weight: bold;
-  margin-left: 50vh;
+  /* margin-left: 50vh; */
   font-size: 35px;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 1%;
   color: #981778;
 
 }
@@ -340,9 +342,9 @@ margin-top:-21%;
 .ContainerRegisterClass{
 
   width: 100wh;
-  height: 100vh;
+  height: 60vh;
   color: #000000;
-  margin-top: -19%;
+  margin-top: -8%;
   position: relative;
   display: flex;
   align-items: center;
@@ -382,7 +384,7 @@ margin-top:-21%;
   align-items: center;
   justify-content: space-around;
   white-space: nowrap;
-  width: 1500%;
+  width: 3500%;
   animation: 3s linear infinite;
 }
 
@@ -393,6 +395,7 @@ margin-top:-21%;
   width: clamp(10rem, 1rem + 40vmin, 30rem);
   padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
   animation-delay: -10s;
+  margin-left: 50%;
  
 }
 
@@ -406,6 +409,13 @@ margin-top:-21%;
   aspect-ratio: 18/9;
   padding: 5px 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.RegisterImgLogo{
+  /* margin-left: 25%; */
+  margin-top: -5%;
+  margin-bottom: 15px;;
 
 }
 

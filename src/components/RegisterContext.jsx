@@ -18,7 +18,7 @@ function RegisterContext(props) {
     const pic9=contextpicture.picture[9];
     const pic10=contextpicture.picture[10];
     const pic11=contextpicture.picture[11];
-    console.log(pic1);
+   
   return (
 
     <div>
