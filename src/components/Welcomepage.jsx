@@ -9,7 +9,6 @@ function Welcomepage() {
   
     <div className="home" style={{ backgroundImage: `url(${Suneetha})` }} >
         <div className="headerContainer">
-          {/* <img src="SRHLogo.png"></img> */}
           <h1> Recipe Hunter</h1>
           <h4>The Global Cooking World </h4>
           <Link to='/FoodSearchPage'>
