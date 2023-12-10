@@ -1,12 +1,65 @@
-# Getting Started with MYPROJECT2 React App
+###               Suneetha's Recipe Hunter (SRH)
+________________________________________________
+
+ Getting Started with ***Suneetha's Recipe Hunter***  (A React Application built to search for Global Food Recipe's)
 
 In this project you can search for different food Recepies and follow cook and enjoy the food..
 
-## Used a free ThemealDB API
+
+###                    WireFrame
+_____________________________________________
+
+# Home Page:
+
+Built one Home page (with Header and Footer)
+Header have links to Home page, About Page, Contact Page, and Register Page .
+
+The Body of Home page have 
+ * a logo, 
+ * a welcome txt and 
+ * a link to the search page  which routes to SearchPage where we can type the recipe name  you need to search and click on search button.
+
+ On clicking the search button all the recipes related to the entered name are displayed as cards which have  
+  * the recipe name, 
+  * origin country,
+  * links to the source,
+  youtube links, which are rendered from the API.
+
+# About Page:
+  In the About Page , you can find the details of the Software Engineer who build this Application.
+  and some links to their old projects.
+
+# Contact Page:
+    Contact Page have the logo, a table containing the Email, Phone, Telegram, Location information rows.
+
+# Register Page:
+    Register Page has form to fill the Email Id and Click on Register button to Register to SRH.
+After clocking on Register a Thank you Email is send to Registerd Email id from SRH.
+and an Email is send to SRH saying New Registration Reciceved from (the registerd email id).
+
+In the Email Send to the Registered Email.. in the body of the Email it has links to other projects of the SRH.
+
+###                 Technologies Used
+_____________________________________________________
+
+* React Js
+* React Router
+* React Hooks (useState, useEffect, useContext, UseRef)
+
+###               Screenshots from the Application
+_______________________________________________________________________
+
+ ![SRHLogo](https://github.com/Suneetharavi/MyProject2/blob/master/src/models/logo/SuneethaLogo.png?raw=true)
+
+
+
+###           Used a free ThemealDB API
+________________________________________________________________
 
  url: www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
 
  Json Object : https://www.themealdb.com/api/json/v1/1/search.php?s=
+
 ## Json Object with attributes
 
 {"meals":[{
@@ -62,8 +115,6 @@ In this project you can search for different food Recepies and follow cook and e
 "strMeasure20":" ",
 "strSource":"https:\/\/findingtimeforcooking.com\/main-dishes\/red-lentil-soup-corba\/","strImageSource":null,"strCreativeCommonsConfirmed":null,"dateModified":null},
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -75,58 +126,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
