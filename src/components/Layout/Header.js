@@ -1,11 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import { AppBar,Typography,Toolbar,Box,Divider,Drawer,IconButton } from '@mui/material'
-import FastfoodIcon from '@mui/icons-material/Fastfood';
 import SoupKitchenIcon from '@mui/icons-material/SoupKitchen';
 import MenuIcon from '@mui/icons-material/Menu';
-import SRHLogo from '../../models/logo/SRHLogo.png'
-import {Link} from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import '../../App.css';
 

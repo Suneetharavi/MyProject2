@@ -5,7 +5,6 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { FaFacebook } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 import '../Footer/footer.css'
 
 const Footer = () => {

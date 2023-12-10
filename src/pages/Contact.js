@@ -18,7 +18,7 @@ function Contact() {
         "& p":{mb:2,color:'#D988B9'}
       }}>
 
-    <div><img src='SRHLogo.png' width='100px'></img></div>
+    <div><img src='SRHLogo.png' width='100px' alt='NoImg'></img></div>
           <Typography variant='h4' >
                 Contact Me
           </Typography>

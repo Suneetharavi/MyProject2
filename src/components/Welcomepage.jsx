@@ -1,8 +1,6 @@
 import React from 'react'
-import Footer from './Footer/Footer';
 import {Link} from 'react-router-dom';
 import Layout from './Layout/Layout';
-import Header from './Layout/Header';
 import Suneetha from '../models/logo/Suneetha.png'
 
 function Welcomepage() {

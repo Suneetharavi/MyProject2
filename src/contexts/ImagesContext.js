@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import contextimages from '../models/contextimages';
-import React, { Component }  from 'react';
+import React  from 'react';
 
 
 export const ImagesContext = createContext();

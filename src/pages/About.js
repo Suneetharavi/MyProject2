@@ -29,7 +29,7 @@ const About = () => {
           },
         }}
       >
-        <div><img src='SRHLogo.png' width='100px'></img></div>
+        <div><img src='SRHLogo.png' width='100px' alt='NoImg'></img></div>
         <Typography variant="h4">Welcome To Suneetha's Recipe Hunter</Typography><br/>
         <p>
           Hi, I am Suneetha. An ambitious and Technology Driven Software Engineer 
