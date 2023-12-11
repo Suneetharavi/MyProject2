@@ -1,3 +1,11 @@
+[Title](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#suneethas-recipe-hunter-srh)
+[WireFrame](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#wireframe)
+[Technologies](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#technologies-used)
+[Screenshots](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#screenshots-from-the-application)
+[Contact Me](https://github.com/Suneetharavi/MyProject2?tab=readme-ov-file#contact-me)
+
+
+
 ###               Suneetha's Recipe Hunter (SRH)
 ________________________________________________
 
@@ -45,6 +53,7 @@ _____________________________________________________
 * React Js
 * React Router
 * React Hooks (useState, useEffect, useContext, UseRef)
+* HTML, CSS, JavaScript
 
 ###               Screenshots from the Application
 _______________________________________________________________________
